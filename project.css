@@ -12,7 +12,7 @@ h2 { color: #D28537; margin-bottom: 0.5em; }
 h3 { color: #D28537; margin-bottom: 0.5em; }
 p { margin-bottom: 1em; }
 dl { margin-bottom: 1em; }
-dt { font-weight: bold; color: #D28537; }
+dt { font-weight: bold; color: #D28537; margin-top: 1em}
 dd { margin-left: 1em; }
 footer { text-align: center; font-size: 0.9rem; color: #D28537; padding: 1em; }
 footer a { color: #D28537; }
