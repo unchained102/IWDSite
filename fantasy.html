@@ -25,10 +25,12 @@
   </nav>
   <div id ="musicPlayer">
   <p>Click play for theme music!</p>
-  <audio controls="controls">
+  <audio id="fantasySong" controls="controls">
 		<source src="fantasy.mp3" type="audio/mpeg">
 		<a href="fantasy.mp3">Fantasy Theme Download</a> (MP3)
   </audio>
+    <script> document.getElementById("fantasySong").volume = 0.08; </script>
+
 </div>
 	<div id="wrapper">
     <header>

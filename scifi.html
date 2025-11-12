@@ -25,10 +25,12 @@
   </nav>
   <div id ="musicPlayer">
   <p>Click play for theme music!</p>
-  <audio controls="controls">
+  <audio id="scifiSong" controls="controls">
 		<source src="scifi.mp3" type="audio/mpeg">
 		<a href="scifi.mp3">Sci-Fi Theme Download</a> (MP3)
   </audio>
+    <script> document.getElementById("scifiSong").volume = 0.08; </script>
+
 </div>
 	<div id="wrapper">
     <header>

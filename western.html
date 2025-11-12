@@ -24,10 +24,12 @@
   </nav>
 <div id ="musicPlayer">
   <p>Click play for theme music!</p>
-  <audio controls="controls">
+  <audio id="westernSong" controls="controls">
 		<source src="western.mp3" type="audio/mpeg">
 		<a href="western.mp3">Western Theme Download</a> (MP3)
   </audio>
+  
+  <script> document.getElementById("westernSong").volume = 0.08; </script>
 </div>
 	<div id="wrapper">
     <header>
