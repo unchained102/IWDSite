@@ -22,6 +22,7 @@ footer { text-align: center; font-size: 0.9rem; color: #ffa244; padding: 1em; }
 footer a { color: #ffa244; }
 footer a:hover { color: #ffffff; }
 input[type=submit] {font-family: "Montserrat", sans-serif; background-color: #ffa244; color: #1c2633; border-radius: 2px;}
+.errorText {color: red;}
 
 @media screen and (min-width: 768px) { 
 	body { font-size: 1rem; } 
