@@ -32,9 +32,58 @@
     </header>
     
     <main>
-      <h2>WIP</h2>
-    </main>
+  <h2 id="storyName">Fantasy</h2>
 
+  <div id="slideshowContainer">
+    <a href="fantasy.html">
+      <img src="fantasy.png">
+    </a>
+    <a href="western.html">
+      <img src="western.png">
+    </a>
+    <a href="scifi.html">
+      <img src="scifi.png">
+    </a>
+
+    <div id="prev">&#10094;</div>
+    <div id="next">&#10095;</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+  $(function() {
+    let i = 0;
+    const imgs = $("#slideshowContainer a");
+	var name = document.getElementById("storyName");
+
+    function showSlide(index) {
+      imgs.hide().eq(index).show();
+	  if (i == 0) {
+		name.textContent = "Fantasy";
+	  }
+	  else if (i == 1) {
+		name.textContent = "Western";
+	  }
+	  else {
+		name.textContent = "Sci-Fi";
+	  
+	  }
+    }
+
+    $("#prev").click(() => {
+      i = (i - 1 + imgs.length) % imgs.length;
+      showSlide(i);
+    });
+
+    $("#next").click(() => {
+      i = (i + 1) % imgs.length;
+      showSlide(i);
+    });
+
+    showSlide(i);
+  });
+  </script>
+</main>
     <footer>
       Copyright © 2025 ShortTallTales.net<br>
       <a href="mailto:edewber2@my.westga.edu">edewber2@my.westga.edu</a>
