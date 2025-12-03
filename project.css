@@ -33,6 +33,8 @@ input[type=submit] {font-family: "Montserrat", sans-serif; background-color: #ff
 #slideshowContainer #next:hover { background-color: rgba(0,0,0,0.6); }
 #storyName {text-align: center; font-size: 2rem; }
 #slideshowContainer a img:hover { filter: brightness(1);}
+#story #page {text-align: center;}
+button {font-family: "Montserrat", sans-serif; background-color: #ffa244; color: #1c2633; border-radius: 2px;}
 
 @media screen and (min-width: 768px) { 
 	body { font-size: 1rem; } 
