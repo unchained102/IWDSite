@@ -29,6 +29,16 @@ next.addEventListener("click", () => {
 prev.addEventListener("click", () => {
 	if (page > 0) {
 		page--;
-		chap.textContent = "Chapter " + (page + 1);
+		fetch(story + (page + 1) + ".txt")
+			.then(response => {
+				if (!response.ok) throw new Error("File not found");
+				return response.text();
+			})
+			.then(text => {
+				document.getElementById(story).innerHTML = text;			
+			})
+			.catch(err => {
+				document.getElementById(story).textContent = "Error: " + err.message;
+			});
 	}
 });
