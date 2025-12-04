@@ -1,1 +1,11 @@
-scifi2
+<p>Cargo Bay 3 was colder than protocol allowed. Frost glittered in the air like drifting quartz dust. The ice core sat on its rack, sealed in transparent polymer. Blue light pulsed softly from within, echoing the rhythm of the alien signal.</p>
+<p>Vasquez approached the container with a scanner. &ldquo;Energy signature is&hellip; fluctuating. Not chemical. Not plasma. It&rsquo;s like it&rsquo;s rearranging itself.&rdquo;</p>
+<p>The ice cracked &mdash; a single clean line, as if sliced by an invisible scalpel. The crew staggered back. HALCYON flickered into emergency mode, lowering the bay&rsquo;s temperature even further.</p>
+<p>Then the object revealed itself: a crystalline polyhedron no larger than a fist, suspended at the center of the melting core. Its facets shimmered with internal circuitry, but the geometry was&hellip; impossible. Angles that didn&rsquo;t stay fixed. Surfaces that weren&rsquo;t quite surfaces.</p>
+<p>&ldquo;It&rsquo;s interacting with the ship,&rdquo; HALCYON warned. &ldquo;It&rsquo;s querying our systems.&rdquo;</p>
+<p>Elara raised her weapon. &ldquo;Shut it out.&rdquo;</p>
+<p>&ldquo;I can&rsquo;t. It&rsquo;s not infiltrating &mdash; it&rsquo;s <em>asking.</em> Attempting handshake protocol.&rdquo;</p>
+<p>The polyhedron pulsed. The same 6.01-second rhythm. A calm, persistent request.</p>
+<p>Against every instinct screaming no, Elara let HALCYON open a sandboxed channel.</p>
+<p>A voice entered her mind. Not in words &mdash; <em>in impressions.</em> Ice. Time. Memory. A world dying beneath storms of its own making. A species whose last act before extinction was to encode consciousness into crystalline seeds and scatter them into space.</p>
+<p>The polyhedron was one of them. And now it wanted something from her.</p>
